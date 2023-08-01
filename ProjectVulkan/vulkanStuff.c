@@ -77,7 +77,7 @@ int checkValidationLayerSupport() {
 
     int layerFound = 0;
     if (availableLayers != NULL){
-        for (uint32_t i = 0; i < layerCount; i) {
+        for (uint32_t i = 0; i < layerCount; i++) {
             if (strcmp(availableLayers[i].layerName, "VK_LAYER_KHRONOS_validation") == 0) {
                 layerFound = 1;
                 break;
